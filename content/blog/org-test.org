@@ -1,0 +1,41 @@
++++
+title = "Markdown Syntax Guide"
+date = "2020-01-03"
+description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+tags = [
+    "markdown",
+    "syntax",
+]
++++
+
+* Header 1
+
+Eksmpel-pythonscript: 
+
+#+begin_src python
+grense = 13195
+
+primtall_liste = [2]
+
+for primtall_kandidat in range(2, grense):
+    er_primtall = True
+    for primtall in primtall_liste:
+        if primtall_kandidat % primtall == 0:
+            er_primtall = False
+    if er_primtall == True:
+        primtall_liste.append(primtall_kandidat)
+
+print(primtall_liste)
+#+end_src
+
+Kulepunktliste:
+
+- 1
+- 2
+- 3
+  
+* Header 2
+
+~fofofo~
+
+
